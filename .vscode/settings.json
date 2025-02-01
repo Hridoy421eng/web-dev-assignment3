@@ -1,0 +1,5 @@
+{
+    "cSpell.ignoreRegExpList": [
+        "{   \"editor.quickSuggestions\": {     \"strings\": true   },   \"tailwindCSS.includeLanguages\": {     \"html\": \"html\",     \"javascript\": \"javascript\",     \"javascriptreact\": \"javascript\",     \"typescript\": \"javascript\",     \"typescriptreact\": \"javascript\"   },   \"tailwindCSS.emmetCompletions\": true,   \"css.validate\": false,   \"scss.validate\": false,   \"less.validate\": false }"
+    ]
+}

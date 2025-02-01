@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Platter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style type="text/tailwindcss">
+        @theme {
+          --font-sora: Sora, serif;
+        }
+      </style>
+    
+</head>
+<body class="font-sora">
+
+    <header>
+        <section class="container bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3] sm:mx-auto mx-auto ">
+           <nav>
+            <div class="navbar flex justify-between items-center mt-2 mb-10 mx-auto">
+                <div>
+                    <img src="c2-assets/logo-header.png" alt="a header img with text">
+                </div>
+                
+                <div class="hidden md:block lg:block">
+                    <ul class="flex flex-row gap-8">
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:block lg:block md:flex lg:flex flex-row justify-center items-center gap-5">
+                        <div class="flex flex-row gap-5">
+                           <i class="fa-solid fa-magnifying-glass"></i>
+    
+                           <i class="fa-solid fa-cart-shopping fa-flip-horizontal"></i>
+                        </div>
+                        <div class="flex gap-5">
+                         <button class="px-5 py-2 bg-white border border-[#179800] rounded-md ">Login</button>
+                        
+                         <button class="px-6 py-2 bg-[#179800] rounded-md">Register</button>
+                       </div>
+                </div>
+              
+                <div class="block md:hidden  lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5 lg:hidden"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+            </div>
+           </nav>
+
+           <!-- banner section starts here -->
+           <div>
+            <h1 class="text-center text-5xl font-bold text-[#111111]">Freshness <span class="text-[#179800] mx-auto">You Can <br>
+                Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-center mx-auto text-[#111111] mt-10">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                <div class="w-5/6 mx-auto h-300px lg:h-800px">
+                    <img src="c2-assets/hero-vegetables.png" alt="a hero vegetable pic will appeare here">
+                </div>
+           </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- services section starts here -->
+
+        <section>
+            <div class="container mx-auto">
+                 <h4 class="text-4xl mx-auto mt-5 lg:mt-30 text-[#179800] font-bold text-start">Services</h4>
+
+              <!-- services card here -->
+        
+                <div class="card grid sm:grid-cols-1 lg:grid-cols-3 mx-auto gap-6 mt-10">
+                          <!-- card 1 -->
+
+                    <div class="text-center flex flex-col justify-center items-center w-320px lg:w-400px  h-400px p-6 text-center bg-[#EFEBE3] rounded-lg">
+                        <div class="mb-8 w-26 h-26 justify-center items-center  bg-white rounded-full">
+                            <img class="w-20 h-20 pl-5 pt-5" src="c2-assets/service.png" />
+                          </div>
+                        <h2 class="font-bold text-black">24/7 Services </h2>
+                        <p class="text-gray-500">24-hour services offer round-the-clock availability, ensuring that customers can access assistance</p>
+                    </div>
+                           <!-- card 2 -->
+
+                    <div class="text-center flex flex-col justify-center items-center w-320px lg:w-400px  h-400px p-6 text-center bg-[#EFEBE3] rounded-lg">
+                        <div class="mb-8 w-26 h-26 justify-center items-center  bg-white rounded-full">
+                            <img class="w-20 h-20 pl-5 pt-5" src="c2-assets/delivery.png" alt="">
+                        </div>
+                        <h2 class="font-bold text-black">Fast Delivery</h2>
+                        <p class="text-gray-500">Fast delivery is a crucial service in today's fast-paced world, ensuring that products and services reach customers</p>
+                    </div>
+                           <!-- card 3 -->
+
+                    <div class="text-center flex flex-col justify-center items-center w-320px lg:w-400px  h-400px p-6 text-center bg-[#EFEBE3] rounded-lg">
+                        <div class="mb-8 w-26 h-26 justify-center items-center  bg-white rounded-full">
+                            <img class="w-20 h-20 pl-5 pt-5" src="c2-assets/healthy.png" alt="">
+                        </div>
+                        <h2 class="font-bold text-black">Healthy Products</h2>
+                        <p class="text-gray-500">Incorporating healthy products into your daily routine can enhance your energy levels, support immune function,</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
